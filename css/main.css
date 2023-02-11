@@ -66,3 +66,12 @@ a:hover {
 #content {
     text-align: left;
 }
+
+img {
+    border: 7px ridge #8cd2e9;
+    height: 200px
+}
+
+ul {
+    list-style: circle;
+}
