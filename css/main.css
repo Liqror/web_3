@@ -103,6 +103,7 @@ ul li, ol li, hr{
     clear: both;
 }
 
+/** 2 колонки с помощью float */
 #col1, #col2 {
     float: left;
     width: 50%;
@@ -110,6 +111,7 @@ ul li, ol li, hr{
     margin-bottom: 15px;
 }
 
+/** фиксированное позиционирование */
 #up {
     height: 40px;
     width: 80px;
@@ -121,7 +123,6 @@ ul li, ol li, hr{
     position: fixed;
     bottom:10px;
     right:10px;
-
 }
 
 #text_up {
@@ -129,4 +130,23 @@ ul li, ol li, hr{
     top: 50%;
     margin: 0;
     transform: translateY(-50%);
+}
+
+/** комбинация относительного и абсолютного */
+#about {
+    position:relative;
+
+}
+
+#about p {
+    float: left;
+    width: 75%;
+}
+
+#img_com {
+    position:absolute;
+    border-radius: 100%;
+    height: 100px;
+    top: 80px;
+    right: 20px;
 }
